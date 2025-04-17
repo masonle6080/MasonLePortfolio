@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+#app {
+    height: 100%;
+  }
+  html,
+  body {
+    position: relative;
+    height: 100%;
+  }
+  
+  body {
+    background: #eee;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .swiper {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+  
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .swiper-slide img {
+    max-width: auto;         /* Prevent stretching */
+    height: 100%;            /* Preserve the image's original aspect ratio */
+    object-fit: contain;     /* Optionally, use 'cover' if you want to fill the container but preserve aspect ratio */
+  }
+  
+  .swiper {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+
+  .swiper-slide-active.swiper-slide-scale {
+    transform: scale(2);
+  }
+ 
+  .swiper-slide-active.swiper-slide-scale2 {
+    transform: scale(1.5);
+  }
+
+  .swiper-button-next,
+.swiper-button-prev {
+  color: black; /* Optional: change arrow color */
+  top:42%;  
+  transform: translateY(0%);
+}
+
+.swiper-button-next {
+  right: 23%;
+}
+
+.swiper-button-prev {
+  left: 23%;
+}
+
+
+.swiper-button-prev::after {
+  content: '<';
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 100;
+  font-size: 30px;
+  color: black;
+}
+
+.swiper-button-next::after {
+  content: '>';
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 100;
+
+  font-size: 30px;
+  color: blacka;
+}

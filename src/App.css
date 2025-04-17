@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import "tailwindcss";
+
+
+@theme {
+    --font-montserrat: "Montserrat", "Montserrat"; 
+    --font-roboto: "Roboto", "Roboto";
+    --font-poppins: "Poppins", "Poppins";
+
+    --color-primarygrey: #343A40;
+    --color-black: #000000;
+    --color-blue: #007BFF;
+    --color-offwhite: #EAEAE8;
+    --color-lightgrey: #D9D9D9;
+    --color-lightblue: #71B8F0;
+    --color-backgroundgrey: #1E1E1E;
+    --color-backgroundgrey2: #464545;
+    --color-linegrey: #C8C8C8;
+
+    
+  }
+
+
+
+b{
+  @apply bg-offwhite;
+}
+
+.mask-fade {
+  -webkit-mask-image: linear-gradient(to right, transparent, white 30%, white 70%, transparent);
+  mask-image: linear-gradient(to right, transparent, white 30%, white 70%, transparent);
+}
+
+/* Apply Montserrat Extra Light font */
+/* Apply Montserrat font family to the body */
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
