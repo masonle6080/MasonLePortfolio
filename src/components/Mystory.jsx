@@ -1,11 +1,17 @@
 import React from 'react'
 import Tomato from './tomato';
 import { Link } from "react-router-dom";
+import Mystory1 from './Mystory1';
+import Mystory2 from './Mystory2';
+import Mystory3 from './Mystory3';
+
 
 export const Mystory = () => {
   return (
-    <div className='flex flex-col gap-10 items-center bg-offwhite my-25 mt-30 font-montserrat'>
-        <div className='flex flex-row items-center justify-center gap-12 w-[60%]'>
+    <div className='flex flex-col gap-30 items-center bg-offwhite my-25 mt-30 font-montserrat'>
+
+        <Mystory1/>
+       {/*<div className='flex flex-row items-center justify-center gap-12 w-[60%]'>
             <div className='flex flex-col gap-4 my-4 '>
                 <div className='flex flex-col items-end'>
                     <p className='text-[16px] font-poppins font-bold'>Youth</p>
@@ -14,11 +20,12 @@ export const Mystory = () => {
             </div>
             <img className='rounded-2xl shadow-[2px_4px_4px_0px_rgba(0,0,0,0.5)] w-[10vw] h-[13vw] object-cover' src="60273920022__06A5A632-C89B-4A3E-8373-7315FA667B39.JPG" alt="me when young"></img>
 
-        </div>
+        </div>*/}
 
-        <hr className='border-2 w-[1px] h-[22px] rounded-2xl border-linegrey'/>
+        <hr className='border-2 w-[1px] h-[40px] rounded-2xl border-linegrey'/>
 
-        <div className='flex flex-row items-center justify-center gap-12 w-[60%]'>
+        <Mystory2/>
+        {/*<div className='flex flex-row items-center justify-center gap-12 w-[60%]'>
             <img className='rounded-2xl shadow-[-2px_4px_4px_0px_rgba(0,0,0,0.5)] w-[10vw] h-[13vw] object-cover' src="IMG_8873.png" alt="me at my film screening"></img>
             <div className='flex flex-col gap-4 my-4 '>
                 <div className='flex flex-col '>
@@ -29,11 +36,12 @@ export const Mystory = () => {
             </div>
             
 
-        </div>
+        </div>*/}
 
-        <hr className='border-2 w-[1px] h-[22px] rounded-2xl border-linegrey'/>
+        <hr className='border-2 w-[1px] h-[40px] rounded-2xl border-linegrey'/>
 
-        <div className='flex flex-row items-center justify-center gap-12 w-[60%]'>
+        <Mystory3/>
+        {/*<div className='flex flex-row items-center justify-center gap-12 w-[60%]'>
             <div className='flex flex-col gap-4 my-4 '>
                 <div className='flex flex-col items-end'>
                     <p className='text-[16px] font-poppins font-bold'>UCSB</p>
@@ -42,7 +50,7 @@ export const Mystory = () => {
             </div>
             <img className='rounded-2xl shadow-[2px_4px_4px_0px_rgba(0,0,0,0.5)] w-[10vw] h-[13vw] object-cover' src="IMG_9307.png" alt="me when young"></img>
 
-        </div>
+        </div>*/}
         <Tomato buttonText="Learn More"/>
 
     </div>
