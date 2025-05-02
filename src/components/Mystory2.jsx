@@ -16,7 +16,7 @@ export default function Mystory2() {
   }, []);
 
   const scrollPercentage = useTransform(scrollY, [0, pageHeight], [0, 100]);
-  const scale = useTransform(scrollPercentage, [0, 60, 70, 90], [0.7, 1.1, 1.1, 0.9]);
+  const scale = useTransform(scrollPercentage, [0, 65, 70, 90], [0.7, 1.1, 1.1, 0.9]);
 
   return (
     <motion.div

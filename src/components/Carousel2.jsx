@@ -38,13 +38,16 @@ export default function Carousel() {
             
 
             <div className='flex flex-col justify-center gap-3.5'>
-              <img src="/photos/_DSC2753.jpg"></img>
+            <a href="https://www.youtube.com/watch?v=QfYIyWk8xCw" target="_blank" rel="noopener noreferrer">
+
+              <img src="/photos/carousel2/Screenshot 2025-04-30 at 5.21.13 PM.png"></img>
+            </a>
               
             </div>
             <div className='flex flex-col items-start font-montserrat font-extralight text-[6px]'>
-                <p>title</p>
-                <p>location</p>
-                <p>date</p>
+                <p>title: Expedition Amana</p>
+                <p>location: Sausilito</p>
+                <p>date: I dont remember</p>
             </div>
           </div>
         </SwiperSlide>
@@ -53,38 +56,39 @@ export default function Carousel() {
             
 
             <div className='flex flex-col justify-center gap-3.5'>
-              <img src="/photos/_DSC0975.jpg"></img>
+            <a href="https://www.youtube.com/watch?v=PaYBGsz-8FM" target="_blank" rel="noopener noreferrer">
+            
+              <img src="/photos/carousel2/Screenshot 2025-04-30 at 5.23.18 PM.png"></img>
+            </a>
               
             </div>
             <div className='flex flex-col items-start font-montserrat font-extralight text-[6px]'>
-                <p>title: Photo of Raglan</p>
-                <p>location: Santa Barbara</p>
-                <p>date: 8-31-2024</p>
+                <p>title: Paul Revere Music Video</p>
+                <p>location: Tibouron</p>
+                <p>date: I dont remember</p>
             </div>
           </div>
           </SwiperSlide>
-          <SwiperSlide className="transition-transform duration-500 ease-in-out scale-60 swiper-slide-scale2">
+
+          <SwiperSlide className="transition-transform duration-500 ease-in-out scale-90 swiper-slide-scale">
         <div className='flex flex-col gap-2'>
             
 
             <div className='flex flex-col justify-center gap-3.5'>
-            <img className='' src="/photos/_DSC0531.jpg"></img>
-              
+            <a href="https://www.youtube.com/watch?v=PYqm86OomCc" target="_blank" rel="noopener noreferrer">
+
+              <img className='' src="/photos/carousel2/Screenshot 2025-04-30 at 5.24.00 PM.png"></img>
+            </a>
             </div>
-            <div className='flex flex-col items-start font-montserrat font-extralight text-[12px]'>
-                <p>title: Lilly Modeling</p>
-                <p>location: NYC</p>
-                <p>date: 7-29-2024</p>
+            <div className='flex flex-col items-start font-montserrat font-extralight text-[6px]'>
+              <p>title: The Price to Learn</p>
+                <p>location: San Francisco</p>
+                <p>date: I dont remember</p>
             </div>
           </div>
           </SwiperSlide>
-          
-        <SwiperSlide>Slide 4</SwiperSlide>
-        <SwiperSlide>Slide 5</SwiperSlide>
-        <SwiperSlide>Slide 6</SwiperSlide>
-        <SwiperSlide>Slide 7</SwiperSlide>
-        <SwiperSlide>Slide 8</SwiperSlide>
-        <SwiperSlide>Slide 9</SwiperSlide>
+
+       
         
       </Swiper>
     </div>

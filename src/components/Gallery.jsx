@@ -16,7 +16,6 @@ export const Gallery = () => {
               <Carousel2/>          
           </div>   
         </div>
-        <p>hi</p>
     </div>
   )
 }
