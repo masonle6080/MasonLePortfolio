@@ -1,7 +1,27 @@
 import React, { useRef, useState } from 'react';
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
-
+import AcrossTheBay from '/photos/_DSC2753.jpg';
+import RandomCuban from '/photos/_DSC6521.png';
+import Raglan from '/photos/carousel1/_DSC0907.jpg'
+import Raglan2 from "/photos/_DSC0975.jpg";
+import lilly from "/photos/_DSC0531.jpg";
+import Benson from "/photos/carousel1/DSCF1706.jpg";
+import Louis from "/photos/carousel1/Louis on wheels.jpg";
+import hawkhill from "/photos/carousel1/_DSC0371.jpg";
+import hawaii1 from "/photos/carousel1/_DSC1763.jpg";
+import hawaii2 from "/photos/carousel1/_DSC1349.jpg";
+import hawaii3 from "/photos/carousel1/_DSC1782.jpg";
+import vb1 from "/photos/carousel1/_DSC6898.jpg";
+import vb2 from "/photos/carousel1/_DSC6923.jpg";
+import porsche from "/photos/carousel1/_DSC3456.jpg";
+import lambo from "/photos/carousel1/_DSC3530.jpg";
+import emerson from "/photos/carousel1/_DSC4523.jpg";
+import iago from "/photos/carousel1/_DSC5512.jpg";
+import jacob from "/photos/carousel1/_DSC7539.jpg";
+import otw from "/photos/carousel1/_DSC6662.png";
+import stare from "/photos/carousel1/_DSC7606.jpg";
+import stares from "/photos/carousel1/_DSC7775.jpg";
 
 // Import Swiper styles
 import 'swiper/css';
@@ -22,7 +42,7 @@ export default function Carousel() {
         slidesPerView={3}
         spaceBetween={150}
         loop={true}
-        centeredSlides={true} // 🔥 this is what you were missing
+        centeredSlides={true} 
 
         speed={1000}
         navigation={true}
@@ -38,7 +58,7 @@ export default function Carousel() {
             
 
             <div className='flex flex-col justify-center gap-3.5'>
-              <img src="/photos/_DSC2753.jpg"></img>
+              <img src={AcrossTheBay}></img>
               
             </div>
             <div className='flex flex-col items-start font-montserrat font-extralight text-[6px]'>
@@ -54,7 +74,7 @@ export default function Carousel() {
             
 
               <div className='flex flex-col justify-center gap-3.5'>
-              <img className='' src="/photos/_DSC6521.png"></img>
+              <img className='' src={RandomCuban}></img>
                 
               </div>
               <div className='flex flex-col items-start font-montserrat font-extralight text-[12px]'>
@@ -71,7 +91,7 @@ export default function Carousel() {
             
 
             <div className='flex flex-col justify-center gap-3.5'>
-              <img src="/photos/carousel1/_DSC0907.jpg"></img>
+              <img src={Raglan}></img>
               
             </div>
             <div className='flex flex-col items-start font-montserrat font-extralight text-[6px]'>
@@ -87,7 +107,7 @@ export default function Carousel() {
             
 
             <div className='flex flex-col justify-center gap-3.5'>
-              <img src="/photos/_DSC0975.jpg"></img>
+              <img src={Raglan2}></img>
               
             </div>
             <div className='flex flex-col items-start font-montserrat font-extralight text-[6px]'>
@@ -103,7 +123,7 @@ export default function Carousel() {
             
 
               <div className='flex flex-col justify-center gap-3.5'>
-              <img className='' src="/photos/_DSC0531.jpg"></img>
+              <img className='' src={lilly}></img>
                 
               </div>
               <div className='flex flex-col items-start font-montserrat font-extralight text-[12px]'>
@@ -119,7 +139,7 @@ export default function Carousel() {
             
 
               <div className='flex flex-col justify-center gap-3.5'>
-              <img className='' src="/photos/carousel1/DSCF1706.jpg"></img>
+              <img className='' src={Benson}></img>
                 
               </div>
               <div className='flex flex-col items-start font-montserrat font-extralight text-[6px]'>
@@ -135,7 +155,7 @@ export default function Carousel() {
             
 
             <div className='flex flex-col justify-center gap-3.5'>
-              <img src="/photos/carousel1/Louis on wheels.jpg"></img>
+              <img src={Louis}></img>
               
             </div>
             <div className='flex flex-col items-start font-montserrat font-extralight text-[10px]'>
@@ -152,7 +172,7 @@ export default function Carousel() {
               
 
               <div className='flex flex-col justify-center gap-3.5'>
-                <img src="/photos/carousel1/_DSC0371.jpg"></img>
+                <img src={hawkhill}></img>
                 
               </div>
               <div className='flex flex-col items-start font-montserrat font-extralight text-[6px]'>
@@ -169,7 +189,7 @@ export default function Carousel() {
               
 
               <div className='flex flex-col justify-center gap-3.5'>
-                <img src="/photos/carousel1/_DSC1763.jpg"></img>
+                <img src={hawaii1}></img>
                 
               </div>
               <div className='flex flex-col items-start font-montserrat font-extralight text-[6px]'>
@@ -186,7 +206,7 @@ export default function Carousel() {
               
 
               <div className='flex flex-col justify-center gap-3.5'>
-                <img src="/photos/carousel1/_DSC1349.jpg"></img>
+                <img src={hawaii2}></img>
                 
               </div>
               <div className='flex flex-col items-start font-montserrat font-extralight text-[6px]'>
@@ -203,7 +223,7 @@ export default function Carousel() {
               
 
               <div className='flex flex-col justify-center gap-3.5'>
-                <img src="/photos/carousel1/_DSC1782.jpg"></img>
+                <img src={hawaii3}></img>
                 
               </div>
               <div className='flex flex-col items-start font-montserrat font-extralight text-[6px]'>
@@ -219,7 +239,7 @@ export default function Carousel() {
             
 
             <div className='flex flex-col justify-center gap-3.5'>
-              <img src="/photos/carousel1/_DSC6898.jpg"></img>
+              <img src={vb1}></img>
               
             </div>
             <div className='flex flex-col items-start font-montserrat font-extralight text-[10px]'>
@@ -235,7 +255,7 @@ export default function Carousel() {
             
 
             <div className='flex flex-col justify-center gap-3.5'>
-              <img src="/photos/carousel1/_DSC6923.jpg"></img>
+              <img src={vb2}></img>
               
             </div>
             <div className='flex flex-col items-start font-montserrat font-extralight text-[10px]'>
@@ -252,7 +272,7 @@ export default function Carousel() {
               
 
               <div className='flex flex-col justify-center gap-3.5'>
-                <img src="/photos/carousel1/_DSC3456.jpg"></img>
+                <img src={porsche}></img>
                 
               </div>
               <div className='flex flex-col items-start font-montserrat font-extralight text-[6px]'>
@@ -268,7 +288,7 @@ export default function Carousel() {
             
 
             <div className='flex flex-col justify-center gap-3.5'>
-              <img src="/photos/carousel1/_DSC3530.jpg"></img>
+              <img src={lambo}></img>
               
             </div>
             <div className='flex flex-col items-start font-montserrat font-extralight text-[10px]'>
@@ -283,7 +303,7 @@ export default function Carousel() {
             
 
             <div className='flex flex-col justify-center gap-3.5'>
-              <img src="/photos/carousel1/_DSC4523.jpg"></img>
+              <img src={emerson}></img>
               
             </div>
             <div className='flex flex-col items-start font-montserrat font-extralight text-[10px]'>
@@ -298,7 +318,7 @@ export default function Carousel() {
             
 
             <div className='flex flex-col justify-center gap-3.5'>
-              <img src="/photos/carousel1/_DSC5512.jpg"></img>
+              <img src={iago}></img>
               
             </div>
             <div className='flex flex-col items-start font-montserrat font-extralight text-[10px]'>
@@ -314,7 +334,7 @@ export default function Carousel() {
             
 
             <div className='flex flex-col justify-center gap-3.5'>
-              <img src="/photos/carousel1/_DSC7539.jpg"></img>
+              <img src={jacob}></img>
               
             </div>
             <div className='flex flex-col items-start font-montserrat font-extralight text-[10px]'>
@@ -330,7 +350,7 @@ export default function Carousel() {
             
 
             <div className='flex flex-col justify-center gap-3.5'>
-              <img src="/photos/carousel1/_DSC6662.png"></img>
+              <img src={otw}></img>
               
             </div>
             <div className='flex flex-col items-start font-montserrat font-extralight text-[10px]'>
@@ -346,7 +366,7 @@ export default function Carousel() {
             
 
             <div className='flex flex-col justify-center gap-3.5'>
-              <img src="/photos/carousel1/_DSC7606.jpg"></img>
+              <img src={stare}></img>
               
             </div>
             <div className='flex flex-col items-start font-montserrat font-extralight text-[10px]'>
@@ -361,7 +381,7 @@ export default function Carousel() {
             
 
             <div className='flex flex-col justify-center gap-3.5'>
-              <img src="/photos/carousel1/_DSC7775.jpg"></img>
+              <img src={stares}></img>
               
             </div>
             <div className='flex flex-col items-start font-montserrat font-extralight text-[10px]'>

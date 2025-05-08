@@ -1,6 +1,7 @@
 import { motion, useScroll, useTransform } from "framer-motion";
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom"; // (you forgot this in some examples!)
+import myStoryPhoto  from '/60273920022__06A5A632-C89B-4A3E-8373-7315FA667B39.jpg'
 
 export default function Mystory1() {
   const { scrollY } = useScroll();
@@ -40,7 +41,7 @@ export default function Mystory1() {
         </div>
         <img 
           className="rounded-2xl shadow-[2px_4px_4px_0px_rgba(0,0,0,0.5)] w-[10vw] h-[13vw] object-cover" 
-          src="60273920022__06A5A632-C89B-4A3E-8373-7315FA667B39.JPG" 
+          src={myStoryPhoto} 
           alt="me when young"
         />
       </div>

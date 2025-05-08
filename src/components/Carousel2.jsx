@@ -8,6 +8,10 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 
+import amana from "/photos/carousel2/Screenshot 2025-04-30 at 5.21.13 PM.png";
+import paul from "/photos/carousel2/Screenshot 2025-04-30 at 5.23.18 PM.png";
+import price from "/photos/carousel2/Screenshot 2025-04-30 at 5.24.00 PM.png";
+
 import '../styles.css';
 
 // import required modules
@@ -22,7 +26,7 @@ export default function Carousel() {
         slidesPerView={3}
         spaceBetween={140}
         loop={true}
-        centeredSlides={true} // 🔥 this is what you were missing
+        centeredSlides={true} 
 
         speed={1000}
         navigation={true}
@@ -40,7 +44,7 @@ export default function Carousel() {
             <div className='flex flex-col justify-center gap-3.5'>
             <a href="https://www.youtube.com/watch?v=QfYIyWk8xCw" target="_blank" rel="noopener noreferrer">
 
-              <img src="/photos/carousel2/Screenshot 2025-04-30 at 5.21.13 PM.png"></img>
+              <img src={amana}></img>
             </a>
               
             </div>
@@ -58,7 +62,7 @@ export default function Carousel() {
             <div className='flex flex-col justify-center gap-3.5'>
             <a href="https://www.youtube.com/watch?v=PaYBGsz-8FM" target="_blank" rel="noopener noreferrer">
             
-              <img src="/photos/carousel2/Screenshot 2025-04-30 at 5.23.18 PM.png"></img>
+              <img src={paul}></img>
             </a>
               
             </div>
@@ -77,7 +81,7 @@ export default function Carousel() {
             <div className='flex flex-col justify-center gap-3.5'>
             <a href="https://www.youtube.com/watch?v=PYqm86OomCc" target="_blank" rel="noopener noreferrer">
 
-              <img className='' src="/photos/carousel2/Screenshot 2025-04-30 at 5.24.00 PM.png"></img>
+              <img className='' src={price}></img>
             </a>
             </div>
             <div className='flex flex-col items-start font-montserrat font-extralight text-[6px]'>

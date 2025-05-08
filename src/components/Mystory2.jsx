@@ -1,6 +1,7 @@
 import { motion, useScroll, useTransform } from "framer-motion";
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
+import myStoryPhoto from '/IMG_8873.png'
 
 export default function Mystory2() {
   const { scrollY } = useScroll();
@@ -32,7 +33,7 @@ export default function Mystory2() {
       <div className="flex flex-row items-center justify-center gap-12">
         <img 
           className="rounded-2xl shadow-[-2px_4px_4px_0px_rgba(0,0,0,0.5)] w-[10vw] h-[13vw] object-cover" 
-          src="IMG_8873.png" 
+          src={myStoryPhoto} 
           alt="me at my film screening"
         />
         <div className="flex flex-col gap-4 my-4">

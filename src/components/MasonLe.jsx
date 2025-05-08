@@ -1,6 +1,8 @@
 import React from 'react'
 import Button from './Button';
-
+import ResumePhoto from '/resume.png'
+import LinkedInPhoto from '/linkedinIcon.png'
+import Headshot from '/professiona.png'
 
 
 export const MasonLe = () => {
@@ -14,15 +16,15 @@ export const MasonLe = () => {
                 <p className='w-[80%] text-[16px]'>A <span className='text-blue'>Computer Science</span> student at the University of California, Santa Barbara; interested in software and business.</p>
               </div>
               <div className='flex flex-col items-center justify-center'>
-                <img className='transition-transform transform hover:scale-110  rounded-4xl shadow-[2px_4px_4px_0px_rgba(0,0,0,0.5)] w-[13vw] object-cover 'src="professiona.png" alt="headshot image"/>
+                <img className='transition-transform transform hover:scale-110  rounded-4xl shadow-[2px_4px_4px_0px_rgba(0,0,0,0.5)] w-[13vw] object-cover 'src={Headshot} alt="headshot image"/>
               </div>
             </div>
             <div className='flex flex-row w-full justify-center items-center gap-8'> {/*linked in resume */}
               <a href="https://www.linkedin.com/in/mason-le-68b75a274/" target="_blank">
-                <Button imgSrc='/linkedinIcon.png' buttonText='LinkedIn'/>
+                <Button imgSrc={LinkedInPhoto} buttonText='LinkedIn'/>
               </a>
               <a href="Mason_Le's_Resume.pdf" target="_blank">
-                <Button imgSrc='/resume.png' buttonText='Resume'/>
+                <Button imgSrc={ResumePhoto} buttonText='Resume'/>
               </a>
             </div>
           </div>
