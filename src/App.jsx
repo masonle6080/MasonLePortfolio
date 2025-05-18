@@ -9,8 +9,8 @@ function App() {
 
   return (
     <>
-      <Router>
-        <ScrollToTop/>
+      <Router basename="/MasonLePortfolio/">
+      <ScrollToTop/>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/portfolio" element={<Portfolio />} />

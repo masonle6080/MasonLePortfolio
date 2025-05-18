@@ -1,6 +1,7 @@
 import React, { useRef, useState } from 'react';
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
+
 import AcrossTheBay from '/photos/_DSC2753.jpg';
 import RandomCuban from '/photos/_DSC6521.png';
 import Raglan from '/photos/carousel1/_DSC0907.jpg'
