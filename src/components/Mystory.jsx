@@ -1,5 +1,5 @@
 import React from 'react'
-import Tomato from './tomato';
+import Tomato from './Tomato'; //JFOIDJAIOFJDAOIFJ this isnt working
 import { Link } from "react-router-dom";
 import Mystory1 from './Mystory1';
 import Mystory2 from './Mystory2';
