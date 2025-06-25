@@ -24,7 +24,6 @@ export default function Mystory3() {
     <motion.div
       style={{
         scale,
-        width: "100%",    // ✅ corrected
         height: "100%",   // ✅ corrected
         display: "flex",  // ✅ added flex to center
         justifyContent: "center",
