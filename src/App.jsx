@@ -9,7 +9,7 @@ function App() {
 
   return (
     <>
-      <Router basename="/MasonLePortfolio/">
+      <Router basename="/">
       <ScrollToTop/>
         <Routes>
           <Route path="/" element={<Home />} />
