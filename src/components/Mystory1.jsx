@@ -1,7 +1,7 @@
 import { motion, useScroll, useTransform } from "framer-motion";
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom"; // (you forgot this in some examples!)
-import myStoryPhoto  from '/60273920022__06A5A632-C89B-4A3E-8373-7315FA667B39.jpg'
+import myStoryPhoto  from '/mystoryphoto.jpg'
 
 export default function Mystory1() {
   const { scrollY } = useScroll();
