@@ -31,7 +31,7 @@ export default function Mystory3() {
       }}
       className="overflow-hidden" // ✅ prevents scaling from causing scrollbars
     >
-      <div className='flex flex-row items-center justify-center gap-12 w-[60%]'>
+      <div className='flex flex-row items-center justify-center gap-12'>
             <div className='flex flex-col gap-4 my-4 '>
                 <div className='flex flex-col items-end'>
                     <p className='text-[16px] font-poppins font-bold'>UCSB</p>
