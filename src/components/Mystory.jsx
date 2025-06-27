@@ -51,7 +51,8 @@ export const Mystory = () => {
             <img className='rounded-2xl shadow-[2px_4px_4px_0px_rgba(0,0,0,0.5)] w-[10vw] h-[13vw] object-cover' src="IMG_9307.png" alt="me when young"></img>
 
         </div>*/}
-        <Tomato buttonText="Learn More"/>
+        {/*        <Tomato buttonText="Learn More"/>
+ */}
 
     </div>
     
